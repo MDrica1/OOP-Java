@@ -25,18 +25,22 @@ public class Aluno extends Pessoa{
         }
         return soma/notas.size();
     }
-    public void setMatricula(){
-        System.out.println("Matricula: "+matricula);
-    }public void setTurma(){
-        System.out.println("Turma: "+turma);
-    }
-    public void setResponsavel(){
-        System.out.println("Responsável: "+responsavel);
+
+    public String getMatricula() {
+        return matricula;
     }
 
-    public void setContato(){
-        System.out.println("Contato do responsável: "+contato);
+    public String getTurma() {
+        return turma;
     }
 
+    public String getResponsavel() {
+        return responsavel;
+    }
 
+    public String getContato() {
+        return contato;
+    }
 }
+
+

@@ -8,8 +8,8 @@ public class Professor extends Funcionario{
         this.materias = materias;
     }
     public void EnsinarMateria(){
-        for (int i=0;i<=materias.size();i++) {
-            System.out.println(nome + "está ensinando.");
+        for (int i=0;i<=materias.size()-1;i++) {
+            System.out.println(nome + " está ensinando "+materias.get(i));
         }
     }
 }

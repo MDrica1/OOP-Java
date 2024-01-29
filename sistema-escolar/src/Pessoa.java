@@ -9,13 +9,15 @@ public class Pessoa {
         this.idade = idade;
     }
 
-    public void setNome(){
-        System.out.println("Nome: "+nome);
-    }public void setCpf(){
-        System.out.println("CPF: "+cpf);
-    }
-    public void setIdade(){
-        System.out.println("Idade: "+idade);
+    public String getNome() {
+        return nome;
     }
 
+    public String getCpf() {
+        return cpf;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
 }

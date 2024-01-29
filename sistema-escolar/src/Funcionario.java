@@ -14,6 +14,7 @@ public class Funcionario extends Pessoa{
     }
 
     public String getDepartamento() {
+
         return departamento;
     }
 
