@@ -1,3 +1,9 @@
 [submodule "to-do-list"]
 	path = to-do-list
 	url = https://github.com/MDrica1/To-do-List.git
+[submodule "Employee-management"]
+	path = Employee-management
+	url = https://github.com/MDrica1/Employee-management.git
+[submodule "medical-appointment-scheduling"]
+	path = medical-appointment-scheduling
+	url = https://github.com/MDrica1/medical-appointment-scheduling.git
